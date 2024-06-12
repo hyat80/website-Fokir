@@ -1,0 +1,410 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.container {
+    width: 80%;
+    margin: auto;
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+
+}
+
+li a:hover {
+    color: #ff305b
+}
+
+
+.logo {
+    float: left;
+    margin-top: 13px;
+}
+
+.logo h2 a {
+    color: #ff305b;
+
+}
+
+#home {
+    color: #ff305b;
+}
+
+.links {
+    float: right;
+}
+
+.links a {
+    color: white;
+}
+
+.clr {
+    clear: both;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+
+/* header */
+
+.header {
+    background-image: url(../hero-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 10%;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .8);
+    height: 100%;
+}
+
+.header_caption {
+    padding: 50px;
+    margin: 150px;
+
+}
+
+h1 {
+    font-size: 70px;
+    color: #ff305b;
+    margin: 20px 0;
+}
+
+.header_caption h4 {
+    font-weight: 100;
+    color: #fdfbfc;
+    font-size: 22px;
+    width: 500px;
+    margin: 30px auto;
+    border-right: 2px solid #fdfbfc;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: control-width 3s 1s infinite;
+
+}
+
+@keyframes control-width {
+    from {
+        width: 0;
+
+    }
+
+    to {
+        width: 500px;
+    }
+}
+
+
+
+
+
+
+/* About */
+.About {
+    margin-bottom: 10%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container1 {
+    width: 80%;
+    margin: auto;
+}
+
+.sec1 {
+    float: left;
+    margin-right: 50px;
+}
+
+.main h2 {
+    margin-bottom: 5px;
+}
+
+.main p {
+
+    color: #7a7979;
+    margin: 30px;
+    /* border-bottom: 1px dashed #8d8c8c; */
+}
+
+.profile_about li {
+    color: #7a7979;
+}
+
+.profile_about li span {
+    color: black;
+}
+
+button {
+    padding: 15px 30px;
+    margin: 20px 0px;
+    border: 0;
+}
+
+.btn_tomato {
+    background-color: #ff305b;
+    color: #fff;
+    border: 3px solid;
+    margin-right: 3px;
+}
+
+.btn_tomato i {
+    font-size: large;
+}
+
+.clr {
+    clear: both;
+}
+
+
+/* Our_services */
+
+.Our_Services {
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Our_Services h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.cards {
+    float: left;
+    text-align: center;
+    width: 25%;
+
+}
+
+.cards i {
+    font-size: 40px;
+    color: #ff305b;
+    padding-bottom: 30px;
+}
+
+.cards h3 {
+    padding-top: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+}
+
+.cards p {
+    color: #7a7979;
+    font-weight: 300;
+}
+
+/* Our Portfolio */
+.Our_Portfolio {
+    margin-bottom: 10%;
+}
+
+.Our_Portfolio h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.list ul {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.list ul li a {
+    color: black;
+}
+
+#all_link {
+    color: #ff305b;
+}
+
+.card_img img {
+    width: 330px;
+    padding: 15px;
+
+}
+
+/* icons */
+.cons {
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 100%;
+    padding-top: 5%;
+    margin-bottom: 30px;
+    padding-bottom: 20%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Client's Feedback */
+.Feedback {
+    padding: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.Feedback img {
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+}
+
+.container3 {
+    width: 50%;
+    margin: auto;
+    border: 2px solid #f1f1f1;
+    background-color: #f1f1f1;
+}
+
+.Feedback h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.alex h2 {
+    margin: 20px;
+}
+
+.alex p {
+    margin: 10px;
+
+}
+
+#united,
+span {
+    color: #7a7979;
+}
+
+.stars {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Our Blog */
+.our_blog {
+    background-color: #f1f1f1;
+
+    width: 100%;
+    padding: 50px;
+    padding-bottom: 40%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.our_blog h3 {
+    font-size: xx-large;
+    margin: 30px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card button {
+    background-color: #ffffff;
+}
+
+.card {
+    float: left;
+
+    width: 30%;
+    padding: 5px;
+
+}
+
+.inner {
+    background-color: #ffffff;
+
+}
+
+.talk {
+    padding: 10px;
+    margin: 10px;
+}
+
+.talk p,
+h4,
+button {
+    padding-bottom: 10px;
+}
+
+
+/* Contact Us */
+
+.Contact_Us h3 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: xx-large;
+}
+
+.form .input {
+    padding: 10px;
+}
+
+.form .input input {
+    padding: 10px;
+    width: 100%;
+}
+
+.input textarea {
+    width: 100%;
+    resize: vertical;
+}
+.form .input {
+    padding: 10px;
+    width: 100%;
+}
+
+.btn button {
+    background-color: #ff305b;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+
+/* footer */
+.footer {
+    background-color: #252424;
+    text-align: center;
+    color: #f0f1f1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.icon_footer i {
+    display: inline-block;
+    width: 50px;
+    margin-bottom: 4%;
+}
